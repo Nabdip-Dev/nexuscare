@@ -1,0 +1,12 @@
+{
+  "name": "nexuscare",
+  "version": "1.0.0",
+  "description": "Nexus Care - Doctor Management & Health Platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node seed.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
